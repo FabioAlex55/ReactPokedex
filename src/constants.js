@@ -48,6 +48,22 @@ export const pokemonList = [
         },
         height:55,
         weight:300,
+    },
+    {
+        id: 4,
+        name: "Charmander",
+        types: ['fire'],
+        imageTypes: ['back_default'],
+        stats : {
+            hp: 50,
+            atk:55,
+            def:55,
+            spAtk: 33,
+            spDef: 12,
+            spd: 15,
+        },
+        height:55,
+        weight:300,
     }
 ]
 
