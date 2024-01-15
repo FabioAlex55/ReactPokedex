@@ -12,7 +12,7 @@ export const PokemonView = props => {
         : PokemonGridItem
 
     return (
-        <div style={view === 'grid' ? { display: 'flex' } : {}}>
+        <div style={view === 'grid' ? { display: 'flex', flexWrap: 'wrap' } : {}}>
             {pokemonList.map(pokemon => (
                 <PokemonViewItem
                     pokemon={pokemon}
